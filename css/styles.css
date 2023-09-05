@@ -8,7 +8,30 @@
     --c-background-light:#F4F4FD;
     --c-background-portfolio:#E7E9FC;
 }
-
+  /*Base*/
+.body {
+    font-family: "Roboto", sans-serif;
+    color: var(--c-primary-slate);
+    background-color: var(--c-background-white);
+}
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+    margin: 0;
+}
+  /*End Base*/
 .logo{
     color: var(--c-brand);
     font-family: "Raleway",sans-serif;
@@ -49,11 +72,6 @@
 }
 .contact:focus{
     color: var(--с-variable);
-}
-.body{
-    font-family: "Roboto",sans-serif;
-    color: var(--c-primary-slate);
-    background-color: var(--c-background-white);
 }
 
 .hero_section{

@@ -19,6 +19,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 a{
     text-decoration: none;
@@ -132,6 +133,9 @@ img{
 
 .section{
     padding: 120px,0;
+}
+.ul-description-of-professions{
+    gap: 24px;
 }
 .visually-hidden {
     position: absolute;

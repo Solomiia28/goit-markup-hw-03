@@ -9,7 +9,7 @@
     --c-background-portfolio:#E7E9FC;
 }
   /*Base*/
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color: var(--c-primary-slate);
     background-color: var(--c-background-white);
@@ -22,16 +22,21 @@
 a{
     text-decoration: none;
 }
- p,
+ .p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6, {
+h6 {
     margin: 0;
 }
+img{
+    display: block;
+}
   /*End Base*/
+
+  /*logo section*/
 .logo{
     color: var(--c-brand);
     font-family: "Raleway",sans-serif;
@@ -73,12 +78,18 @@ h6, {
 .contact:focus{
     color: var(--с-variable);
 }
+/*End logo section*/
 
+/*Hero section*/
 .hero_section{
+    padding: 188px,0;
     background-color: var(--c-primary);
 }
 
 .heder-one{
+    max-width: 496px;
+    margin: 0,auto;
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -92,6 +103,11 @@ h6, {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--c-background-white);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
     cursor: pointer;
 }
@@ -101,6 +117,34 @@ h6, {
 .button:focus{
     background-color: var(--с-variable);
 }
+.section{
+    padding:60px,0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*End hero section*/
+
+/*section-description-of-professions*/
+
+.section-description-of-professions{
+    padding: 120px,0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .heder-three{
     font-weight: 500;
     font-size: 20px;
@@ -112,6 +156,10 @@ h6, {
     line-height:1.5;
     letter-spacing:0.02em;
 }
+/*End section-description-of-professions*/
+
+/*section-our-team*/
+
 .section-our-team{
     background-color: var(--c-background-light);
 }
@@ -138,6 +186,11 @@ h6, {
     font-size: 16px;
     color: var(--c-primary-slate);
 }
+
+/*End section-our-team*/
+
+/*section-our-portfolio*/
+
 .section-our-portfolio{
     color: var(--c-background-portfolio);
 }
@@ -161,6 +214,7 @@ h6, {
     font-size: 16px;
     color: var(--c-primary-slate);
 }
+/* End section-our-portfolio*/
 
 .footer{
     background-color: var(--c-primary);

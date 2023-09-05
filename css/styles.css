@@ -47,8 +47,6 @@ img{
   }
   .container-header-class{
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 .logo{
     color: var(--c-brand);

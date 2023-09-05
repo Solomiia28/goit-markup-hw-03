@@ -15,6 +15,7 @@ body {
     background-color: var(--c-background-white);
 }
  ul{
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -129,7 +130,7 @@ img{
 
 /*section-description-of-professions*/
 
-.section-description-of-professions{
+.section{
     padding: 120px,0;
 }
 .visually-hidden {
@@ -160,7 +161,7 @@ img{
 
 /*section-our-team*/
 
-.section-our-team{
+.section{
     background-color: var(--c-background-light);
 }
 .header-two-our-team{
@@ -191,7 +192,7 @@ img{
 
 /*section-our-portfolio*/
 
-.section-our-portfolio{
+.section{
     color: var(--c-background-portfolio);
 }
 .heder-two-our-portfolio{

@@ -42,6 +42,14 @@ img{
   /*End Base*/
 
   /*logo section*/
+  .header-class{
+   border-bottom: 1px solid #e7e9fc;
+  }
+  .container-header-class{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 .logo{
     color: var(--c-brand);
     font-family: "Raleway",sans-serif;
@@ -147,6 +155,7 @@ img{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 156px;
+    width: 1158px;
 }
 
 /*End hero section*/

@@ -1,0 +1,167 @@
+:root{
+
+    --c-brand:#4d5ae5;
+    --c-primary:#2e2f42;
+    --c-primary-slate:#434455;
+    --с-variable:#404bbf;
+    --c-background-white:#FFFFFF;
+    --c-background-light:#F4F4FD;
+    --c-background-portfolio:#E7E9FC;
+}
+
+.logo{
+    color: var(--c-brand);
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-studio{
+    color: var(--c-primary);
+}
+
+.nav-link{
+    color: var(--c-primary);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+
+}
+.nav-link:hover{
+    color: var(--с-variable);
+}
+.nav-link:focus{
+    color: var(--с-variable);
+}
+.address{
+    font-style:normal;
+}
+
+.contact{
+    color: var(--c-primary-slate);
+    line-height:1.5;
+    letter-spacing:0.02em;
+}
+.contact:hover{
+    color: var(--с-variable);
+}
+.contact:focus{
+    color: var(--с-variable);
+}
+.body{
+    font-family: "Roboto",sans-serif;
+    color: var(--c-primary-slate);
+    background-color: var(--c-background-white);
+}
+
+.hero_section{
+    background-color: var(--c-primary);
+}
+
+.heder-one{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--c-background-white);
+}
+
+.button{
+    background-color: var(--c-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--c-background-white);
+
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--с-variable);
+}
+.button:focus{
+    background-color: var(--с-variable);
+}
+.heder-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+.p-heder-three{
+    line-height:1.5;
+    letter-spacing:0.02em;
+}
+.section-our-team{
+    background-color: var(--c-background-light);
+}
+.header-two-our-team{
+    font-size: 36px;
+    letter-spacing :0.02em;
+    line-height:1.11;
+    text-align:center;
+    text-transform:capitalize;
+    color: var(--c-primary);
+}
+.section-images{
+    background-color: var(--c-background-white)
+}
+.heder-three {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+.p-heder-three {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--c-primary-slate);
+}
+.section-our-portfolio{
+    color: var(--c-background-portfolio);
+}
+.heder-two-our-portfolio{
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--c-primary);
+}
+.heder-three{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+}
+.p-heder-three-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--c-primary-slate);
+}
+
+.footer{
+    background-color: var(--c-primary);
+}
+.footer-logo{
+    font-family:"Raleway",sans-serif;
+    font-weight:700;
+    font-size: 18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    color: var(--c-brand);
+}
+.footer-logo-studio{
+    color: var(--c-background-light);
+}
+.p-footer-logo-studio{
+    line-height: 1.5;
+    color: var(--c-background-light);
+    letter-spacing: 0.02em;
+    font-size:16;
+}

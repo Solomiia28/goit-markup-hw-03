@@ -160,9 +160,7 @@ img{
     gap: 24px;
 
 }
-.li-description-of-professions{
-    flex-basis: calc((100% - 72px) / 4);
-}
+
 .heder-three{
     font-weight: 500;
     font-size: 20px;

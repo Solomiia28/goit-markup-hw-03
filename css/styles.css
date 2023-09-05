@@ -167,11 +167,13 @@ img{
     letter-spacing: 0.02em;
     color: var(--c-primary);
     margin-bottom: 8px;
+    margin-right: 24px;
 }
 .p-heder-three{
     line-height:1.5;
     letter-spacing:0.02em;
     margin-bottom: 120px;
+    width: 264px;
 }
 /*End section-description-of-professions*/
 

@@ -111,7 +111,6 @@ img{
     height: 56px;
     border: none;
     border-radius: 4px;
-
     cursor: pointer;
 }
 .button:hover{
@@ -126,6 +125,7 @@ img{
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 156px;
 }
 
 /*End hero section*/
@@ -227,6 +227,7 @@ img{
 
 .footer{
     background-color: var(--c-primary);
+    padding: 100px 0;
 }
 .footer-logo{
     font-family:"Raleway",sans-serif;
@@ -236,6 +237,11 @@ img{
     letter-spacing:0.03em;
     text-transform:uppercase;
     color: var(--c-brand);
+    
+}
+.a-footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-studio{
     color: var(--c-background-light);
@@ -245,4 +251,5 @@ img{
     color: var(--c-background-light);
     letter-spacing: 0.02em;
     font-size:16;
+    max-width: 264px;
 }

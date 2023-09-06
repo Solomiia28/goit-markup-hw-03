@@ -198,13 +198,18 @@ img{
     color: var(--c-primary);
     margin-bottom: 72px;
 }
-.li-Our-Team{
+.li-our-team{
     flex-basis: calc((100% - 72px) / 4);
     border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
-        
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.div-our-team{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .section-images{
     background-color: var(--c-background-white)
@@ -214,12 +219,14 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
+    text-align: center;
 }
 .p-heder-three {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
+    text-align: center;
 }
 
 /*End section-our-team*/

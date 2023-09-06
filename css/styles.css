@@ -243,6 +243,7 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: var(--c-primary);
+    margin-bottom: 72px;
 }
 .heder-three{
     font-size: 20px;

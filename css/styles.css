@@ -90,7 +90,12 @@ img{
 }
 .ul-logo{
     gap: 40px;
+    display: flex;
 
+}
+.li-logo{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .ul-contact{
     display: flex;

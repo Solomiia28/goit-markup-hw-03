@@ -41,23 +41,33 @@ h6 {
 img{
     display: block;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 156px;
-    width: 1158px;
-}
+
   /*End Base*/
 
   /*logo section*/
-  .header-class{
-   border-bottom: 1px solid #e7e9fc;
-  }
-  .container-inner{
-    display: flex; 
-    align-items: center;
+ .header-inner{
+     display: flex;
+     align-items: center;
     justify-content: space-between;
-    padding: 0 ,15px, 0 ,15px;
+     padding: 0, 15px, 0, 15px;
+     gap: 40px;
+ }
+ .header-address{
+    display:flex;
+    gap: 40px;
+    align-items:center;
+    flex-grow: 1;
+    padding: 24,24;
+ }
+ .nav-list{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     flex-grow: 1;
+     justify-content: center;
+ }
+ .header-class{
+   border-bottom: 1px solid #e7e9fc;
   }
   
 .logo{
@@ -68,6 +78,8 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
     
 }
 .logo-style{
@@ -84,18 +96,13 @@ img{
 .logo-studio{
     color: var(--c-primary);
 }
-
-.nav-header{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-
-}
 .nav-link{
     color: var(--c-primary);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em;
+    padding: 24px,24px;
+    display: inline-block;
     
     
 
@@ -164,6 +171,13 @@ img{
 }
 .button:focus{
     background-color: var(--с-variable);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 ,auto;
+    padding: 15,15px;
+    width: 1158px;
+    justify-content: center;
 }
 .visually-hidden {
     position: absolute;

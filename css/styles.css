@@ -26,6 +26,8 @@ a{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
  .p,
 h1,
@@ -47,7 +49,15 @@ img{
   }
   .container-header-class{
     display: flex;
+    
   }
+  .header-inner{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  
 .logo{
     color: var(--c-brand);
     font-family: "Raleway",sans-serif;
@@ -56,16 +66,29 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+}
+.ul-logo{
+    gap: 40px;
+
+}
+.ul-contact{
+    display: flex;
+    gap: 40px;
 }
 .logo-studio{
     color: var(--c-primary);
 }
-
+.header-class-nav{
+ display: flex;
+ align-items: center;
+}
 .nav-link{
     color: var(--c-primary);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em;
+    
 
 }
 .nav-link:hover{
@@ -149,12 +172,12 @@ img{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container{
+.container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 156px;
     width: 1158px;
-}
+} 
 
 /*End hero section*/
 

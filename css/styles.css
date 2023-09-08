@@ -47,9 +47,14 @@ img{
   .header-class{
    border-bottom: 1px solid #e7e9fc;
   }
-  .container-header-class{
+  .container-header{
     display: flex;
     
+  }
+  .div-container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
 .logo{

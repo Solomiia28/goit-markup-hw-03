@@ -47,8 +47,10 @@ img{
   .header-class{
    border-bottom: 1px solid #e7e9fc;
   }
-  .container-header{
+  .container-inner{
     display: flex; 
+    align-items: center;
+    justify-content: space-between;
   }
   
 .logo{

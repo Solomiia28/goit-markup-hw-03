@@ -41,6 +41,12 @@ h6 {
 img{
     display: block;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 156px;
+    width: 1158px;
+}
   /*End Base*/
 
   /*logo section*/
@@ -51,7 +57,7 @@ img{
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 0 ,15px;
+    padding: 0 ,15px, 0 ,15px;
   }
   
 .logo{
@@ -79,7 +85,7 @@ img{
     color: var(--c-primary);
 }
 
-.header-nav {
+.nav-header{
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -175,12 +181,7 @@ img{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 156px;
-    width: 1158px;
-} 
+
 
 /*End hero section*/
 

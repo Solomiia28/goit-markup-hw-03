@@ -51,12 +51,6 @@ img{
     display: flex;
     
   }
-  .header-inner{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: space-between;
-  }
   
 .logo{
     color: var(--c-brand);
@@ -79,15 +73,19 @@ img{
 .logo-studio{
     color: var(--c-primary);
 }
-.header-class-nav{
- display: flex;
- align-items: center;
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
 }
 .nav-link{
     color: var(--c-primary);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em;
+    
     
 
 }

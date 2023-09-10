@@ -64,15 +64,7 @@ img{
      width: 1158px;
      margin: 0,auto;
  }
- .container {
-     max-width: 1440px;
-     margin: 0, auto;
-     padding: 15, 15px;
-     width: 1158px;
-     justify-content: center;
-
-
- }
+ 
  .header-address{
     display:flex;
     gap: 40px;

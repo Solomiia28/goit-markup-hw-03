@@ -243,7 +243,10 @@ img{
 }
 .li-our-team{
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .container-our-team{
@@ -327,7 +330,7 @@ img{
     color: var(--c-brand);
     
 }
-.footer-logo{
+.a-footer-logo{
     display: inline-block;
     margin-bottom:16px 0;
 }

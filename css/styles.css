@@ -258,14 +258,14 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
-    text-align: center;
+    text-align:left;
 }
 .p-heder-three {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
-    text-align: center;
+    text-align:left;
 }
 
 /*End section-our-team*/

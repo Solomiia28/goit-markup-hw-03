@@ -109,10 +109,6 @@ img{
     display: flex;
     gap: 40px;
 }
-.address-contact{
-    display: flex;
-    gap: 40px;
-}
 .logo-studio{
     color: var(--c-primary);
 }

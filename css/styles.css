@@ -45,6 +45,15 @@ img{
   /*End Base*/
 
   /*logo section*/
+  .container {
+      max-width: 1440px;
+      margin: 0, auto;
+      padding: 15, 15px;
+      width: 1158px;
+      justify-content: center;
+
+
+  }
  .header-inner{
      display: flex;
      align-items: center;
@@ -55,18 +64,25 @@ img{
      width: 1158px;
      margin: 0,auto;
  }
+ .container {
+     max-width: 1440px;
+     margin: 0, auto;
+     padding: 15, 15px;
+     width: 1158px;
+     justify-content: center;
+
+
+ }
  .header-address{
     display:flex;
     gap: 40px;
     align-items:center;
-    flex-grow: 1;
     padding: 24,24;
  }
  .nav-list{
      display: flex;
      align-items: center;
      gap: 40px;
-     flex-grow: 1;
      justify-content: center;
  }
  .header-class{
@@ -83,7 +99,6 @@ img{
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    margin-right: 76px;
     
 }
 .logo-style{
@@ -181,14 +196,6 @@ img{
 .button:focus{
     background-color: var(--с-variable);
 }
-.container {
-    max-width: 1440px;
-    margin: 0 ,auto;
-    padding: 15,15px;
-    width: 1158px;
-    justify-content: center;
-    
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -216,7 +223,7 @@ img{
 
 }
 .li-description-of-professions{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .heder-three{
     font-weight: 500;
@@ -250,7 +257,7 @@ img{
     margin-bottom: 72px;
 }
 .li-our-team{
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-right-radius: 4px;

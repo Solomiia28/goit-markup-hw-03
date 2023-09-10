@@ -49,7 +49,6 @@ img{
       max-width: 1440px;
       margin: 0, auto;
       padding: 15, 15px;
-      width: 1158px;
       justify-content: center;
 
 
@@ -79,6 +78,7 @@ img{
  }
  .header-class{
    border-bottom: 1px solid #e7e9fc;
+   display: flex;
   }
   
 .logo{
@@ -238,6 +238,7 @@ img{
 
 .section{
     background-color: var(--c-background-light);
+    
 }
 .header-two-our-team{
     font-size: 36px;
@@ -303,7 +304,7 @@ img{
     width: calc((100% - 48px) / 3);
 }
 .container-our-portfolio{
-    padding: 32px, 16px;
+    padding:32px,16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 

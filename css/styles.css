@@ -69,7 +69,7 @@ img{
      justify-content: center;
  }
  .header-class{
-   border-bottom: 1px solid #e7e9fc;
+   border-bottom: 1px solid var(--c-background-portfolio);
    display: flex;
   }
   
@@ -83,6 +83,7 @@ img{
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    margin-right: 76px;
     
 }
 .logo-style{
@@ -258,14 +259,14 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
-    text-align:left;
+    text-align:center;
 }
 .p-heder-three {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
-    text-align:left;
+    text-align:center;
 }
 
 /*End section-our-team*/

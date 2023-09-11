@@ -156,7 +156,7 @@ img{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--c-background-white);
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .button{
@@ -229,7 +229,7 @@ img{
 
 /*section-our-team*/
 
-.section{
+.section-description-of-professions{
     background-color: var(--c-background-light);
     
 }
@@ -240,7 +240,6 @@ img{
     text-align: center;
     text-transform:capitalize;
     color: var(--c-primary);
-    margin-bottom: 72px;
 }
 .li-our-team{
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -250,10 +249,9 @@ img{
 .container-our-team{
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: var(--c-background-white);
 }
-.section-images{
-    background-color: var(--c-background-white)
-}
+
 .heder-three {
     font-size: 20px;
     line-height: 1.2;
@@ -267,6 +265,7 @@ img{
     font-size: 16px;
     color: var(--c-primary-slate);
     text-align:center;
+    text-align: left;
 }
 
 /*End section-our-team*/
@@ -274,7 +273,7 @@ img{
 /*section-our-portfolio*/
 
 .section{
-    color: var(--c-background-portfolio);
+    color: var(--c-background-white);
 }
 .heder-two-our-portfolio{
     font-size: 36px;
@@ -295,7 +294,7 @@ img{
 }
 .container-our-portfolio{
     padding:32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--c-background-portfolio);
     border-top: none;
 
 }

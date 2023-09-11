@@ -328,6 +328,7 @@ img{
 }
 .a-footer-logo{
     display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-studio{
     color: var(--c-background-light);

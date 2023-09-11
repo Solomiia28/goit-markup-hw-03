@@ -202,6 +202,11 @@ img{
 /*End hero section*/
 
 /*section-description-of-professions*/
+.section-description-of-professions {
+    background-color: var(--c-background-white);
+    padding: 120px 0;
+}
+
 
 .ul-description-of-professions{
     gap: 24px;
@@ -218,6 +223,7 @@ img{
     color: var(--c-primary);
     margin-bottom: 8px;
     margin-right: 24px;
+    text-align: center;
 }
 .p-heder-three{
     line-height:1.5;
@@ -229,7 +235,7 @@ img{
 
 /*section-our-team*/
 
-.section-description-of-professions{
+.section-our-team{
     background-color: var(--c-background-light);
     padding: 120px 0;
     
@@ -255,19 +261,14 @@ img{
 }
 
 .heder-three {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--c-primary);
-    text-align:center;
+ 
 }
-.p-heder-three {
+.p-heder-three-our-team {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
     text-align:center;
-    text-align: center;
 }
 
 /*End section-our-team*/
@@ -300,7 +301,7 @@ img{
     border-top: none;
 
 }
-.heder-three{
+.heder-three-our-portfolio{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;

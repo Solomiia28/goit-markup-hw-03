@@ -95,8 +95,7 @@ img{
 
 }
 .li-logo{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding:24px 0;
 }
 .ul-address{
     display: flex;
@@ -122,7 +121,7 @@ img{
 .nav-link:focus{
     color: var(--с-variable);
 }
-.address{
+.header-address{
     font-style:normal;
 }
 
@@ -222,13 +221,11 @@ img{
     letter-spacing: 0.02em;
     color: var(--c-primary);
     margin-bottom: 8px;
-    margin-right: 24px;
     text-align: center;
 }
 .p-heder-three{
     line-height:1.5;
     letter-spacing:0.02em;
-    margin-bottom: 120px;
     width: 264px;
 }
 /*End section-description-of-professions*/
@@ -327,12 +324,10 @@ img{
     line-height:1.17;
     letter-spacing:0.03em;
     text-transform:uppercase;
-    color: var(--c-brand);
-    
+    color: var(--c-brand);   
 }
 .a-footer-logo{
     display: inline-block;
-    margin-bottom: 16px;
 }
 .footer-logo-studio{
     color: var(--c-background-light);
@@ -343,5 +338,4 @@ img{
     letter-spacing: 0.02em;
     font-size:16;
     max-width: 264px;
-
 }

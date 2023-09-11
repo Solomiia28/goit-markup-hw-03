@@ -231,6 +231,7 @@ img{
 
 .section-description-of-professions{
     background-color: var(--c-background-light);
+    padding: 120px 0;
     
 }
 .header-two-our-team{
@@ -240,6 +241,7 @@ img{
     text-align: center;
     text-transform:capitalize;
     color: var(--c-primary);
+    margin-bottom: 72px;
 }
 .li-our-team{
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -265,7 +267,7 @@ img{
     font-size: 16px;
     color: var(--c-primary-slate);
     text-align:center;
-    text-align: left;
+    text-align: center;
 }
 
 /*End section-our-team*/

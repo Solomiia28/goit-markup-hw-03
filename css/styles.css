@@ -58,7 +58,6 @@ img{
  
  .header-address{
     display:flex;
-    gap: 40px;
     align-items:center;
     padding: 24px 24px ;
  }
@@ -91,6 +90,7 @@ img{
 }
 .ul-logo{
     display: flex;
+    gap: 40px;
 
 }
 .li-logo{
@@ -221,13 +221,12 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
-    text-align: center;
+    margin-bottom: 8px;
 }
 .p-heder-three{
     line-height:1.5;
     letter-spacing:0.02em;
     width: 264px;
-    margin-bottom: 8px;
 }
 /*End section-description-of-professions*/
 
@@ -258,8 +257,9 @@ img{
     background-color: var(--c-background-white);
 }
 
-.heder-three {
- 
+.heder-three-o-team {
+ margin-bottom: 8px;
+ text-align: center;
 }
 .p-heder-three-our-team {
     line-height: 1.5;
@@ -267,7 +267,7 @@ img{
     font-size: 16px;
     color: var(--c-primary-slate);
     text-align:center;
-    margin-bottom: 8px;
+    
 }
 
 /*End section-our-team*/
@@ -306,13 +306,13 @@ img{
     letter-spacing: 0.02em;
     color: var(--c-primary);
     font-weight: 500;
+    margin-bottom: 8px;
 }
 .p-heder-three-portfolio{
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
-    margin-bottom: 8px;
     font-style: normal;
     font-weight: 400;
 }

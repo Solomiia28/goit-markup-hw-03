@@ -90,7 +90,6 @@ img{
     font-family: Raleway, sans-serif;
 }
 .ul-logo{
-    gap: 40px;
     display: flex;
 
 }
@@ -222,13 +221,13 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
-    margin-bottom: 8px;
     text-align: center;
 }
 .p-heder-three{
     line-height:1.5;
     letter-spacing:0.02em;
     width: 264px;
+    margin-bottom: 8px;
 }
 /*End section-description-of-professions*/
 
@@ -268,6 +267,7 @@ img{
     font-size: 16px;
     color: var(--c-primary-slate);
     text-align:center;
+    margin-bottom: 8px;
 }
 
 /*End section-our-team*/
@@ -305,13 +305,16 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
-    margin-bottom: 8px;
+    font-weight: 500;
 }
 .p-heder-three-portfolio{
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--c-primary-slate);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 400;
 }
 /* End section-our-portfolio*/
 
@@ -336,9 +339,9 @@ img{
     color: var(--c-background-light);
 }
 .p-footer-logo-studio{
+    font-size: 16px;
     line-height: 1.5;
     color: var(--c-background-light);
     letter-spacing: 0.02em;
-    font-size:16;
     max-width: 264px;
 }

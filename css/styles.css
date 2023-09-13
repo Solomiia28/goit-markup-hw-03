@@ -26,7 +26,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
- .p,
+ p,
 h1,
 h2,
 h3,
@@ -64,7 +64,6 @@ img{
  .nav-list{
      display: flex;
      align-items: center;
-     gap: 40px;
      justify-content: center;
  }
  .header-class{
@@ -79,7 +78,7 @@ img{
     letter-spacing: 0.03em;
     display: flex;
     align-items: center;
-    margin-right: 76px;
+   
     
 }
 .logo-style{
